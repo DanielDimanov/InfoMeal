@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		30FF9F5021C1A98300B0B3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F4F21C1A98300B0B3A4 /* AppDelegate.swift */; };
-		30FF9F5221C1A98300B0B3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F5121C1A98300B0B3A4 /* ViewController.swift */; };
+		30FF9F5221C1A98300B0B3A4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F5121C1A98300B0B3A4 /* HomeVC.swift */; };
 		30FF9F5521C1A98300B0B3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FF9F5321C1A98300B0B3A4 /* Main.storyboard */; };
 		30FF9F5821C1A98300B0B3A4 /* InfoMeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F5621C1A98300B0B3A4 /* InfoMeal.xcdatamodeld */; };
 		30FF9F5A21C1A98500B0B3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FF9F5921C1A98500B0B3A4 /* Assets.xcassets */; };
 		30FF9F5D21C1A98500B0B3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FF9F5B21C1A98500B0B3A4 /* LaunchScreen.storyboard */; };
 		30FF9F6821C1A98500B0B3A4 /* InfoMealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F6721C1A98500B0B3A4 /* InfoMealTests.swift */; };
 		30FF9F7321C1A98500B0B3A4 /* InfoMealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F7221C1A98500B0B3A4 /* InfoMealUITests.swift */; };
+		30FF9F8421C1ACF000B0B3A4 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F8321C1ACF000B0B3A4 /* FoodCategory.swift */; };
+		30FF9F8621C1AD3400B0B3A4 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F8521C1AD3400B0B3A4 /* Recipe.swift */; };
+		30FF9F8821C1AD8B00B0B3A4 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F8721C1AD8B00B0B3A4 /* DataSet.swift */; };
+		30FF9F8E21C1CC6300B0B3A4 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F8D21C1CC6300B0B3A4 /* CategoryCell.swift */; };
+		30FF9F9021C1D27300B0B3A4 /* RecipeSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F8F21C1D27300B0B3A4 /* RecipeSelectionVC.swift */; };
+		30FF9F9221C2921000B0B3A4 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F9121C2921000B0B3A4 /* RecipeCell.swift */; };
+		30FF9F9421C2960700B0B3A4 /* RecipeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF9F9321C2960700B0B3A4 /* RecipeDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		30FF9F4C21C1A98300B0B3A4 /* InfoMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FF9F4F21C1A98300B0B3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30FF9F5121C1A98300B0B3A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30FF9F5121C1A98300B0B3A4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		30FF9F5421C1A98300B0B3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30FF9F5721C1A98300B0B3A4 /* InfoMeal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfoMeal.xcdatamodel; sourceTree = "<group>"; };
 		30FF9F5921C1A98500B0B3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		30FF9F6E21C1A98500B0B3A4 /* InfoMealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfoMealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FF9F7221C1A98500B0B3A4 /* InfoMealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMealUITests.swift; sourceTree = "<group>"; };
 		30FF9F7421C1A98500B0B3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FF9F8321C1ACF000B0B3A4 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
+		30FF9F8521C1AD3400B0B3A4 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		30FF9F8721C1AD8B00B0B3A4 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		30FF9F8D21C1CC6300B0B3A4 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		30FF9F8F21C1D27300B0B3A4 /* RecipeSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSelectionVC.swift; sourceTree = "<group>"; };
+		30FF9F9121C2921000B0B3A4 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		30FF9F9321C2960700B0B3A4 /* RecipeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,16 @@
 		30FF9F4E21C1A98300B0B3A4 /* InfoMeal */ = {
 			isa = PBXGroup;
 			children = (
+				30FF9F8221C1A9EA00B0B3A4 /* Controller */,
+				30FF9F8121C1A9D900B0B3A4 /* Model */,
+				30FF9F8021C1A9C800B0B3A4 /* View */,
 				30FF9F4F21C1A98300B0B3A4 /* AppDelegate.swift */,
-				30FF9F5121C1A98300B0B3A4 /* ViewController.swift */,
 				30FF9F5321C1A98300B0B3A4 /* Main.storyboard */,
 				30FF9F5921C1A98500B0B3A4 /* Assets.xcassets */,
 				30FF9F5B21C1A98500B0B3A4 /* LaunchScreen.storyboard */,
 				30FF9F5E21C1A98500B0B3A4 /* Info.plist */,
 				30FF9F5621C1A98300B0B3A4 /* InfoMeal.xcdatamodeld */,
+				30FF9F8D21C1CC6300B0B3A4 /* CategoryCell.swift */,
 			);
 			path = InfoMeal;
 			sourceTree = "<group>";
@@ -126,6 +143,34 @@
 				30FF9F7421C1A98500B0B3A4 /* Info.plist */,
 			);
 			path = InfoMealUITests;
+			sourceTree = "<group>";
+		};
+		30FF9F8021C1A9C800B0B3A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30FF9F9121C2921000B0B3A4 /* RecipeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30FF9F8121C1A9D900B0B3A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30FF9F8321C1ACF000B0B3A4 /* FoodCategory.swift */,
+				30FF9F8521C1AD3400B0B3A4 /* Recipe.swift */,
+				30FF9F8721C1AD8B00B0B3A4 /* DataSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30FF9F8221C1A9EA00B0B3A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30FF9F5121C1A98300B0B3A4 /* HomeVC.swift */,
+				30FF9F8F21C1D27300B0B3A4 /* RecipeSelectionVC.swift */,
+				30FF9F9321C2960700B0B3A4 /* RecipeDetailVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FF9F5221C1A98300B0B3A4 /* ViewController.swift in Sources */,
+				30FF9F8821C1AD8B00B0B3A4 /* DataSet.swift in Sources */,
+				30FF9F9021C1D27300B0B3A4 /* RecipeSelectionVC.swift in Sources */,
+				30FF9F5221C1A98300B0B3A4 /* HomeVC.swift in Sources */,
+				30FF9F9421C2960700B0B3A4 /* RecipeDetailVC.swift in Sources */,
+				30FF9F9221C2921000B0B3A4 /* RecipeCell.swift in Sources */,
 				30FF9F5821C1A98300B0B3A4 /* InfoMeal.xcdatamodeld in Sources */,
+				30FF9F8E21C1CC6300B0B3A4 /* CategoryCell.swift in Sources */,
 				30FF9F5021C1A98300B0B3A4 /* AppDelegate.swift in Sources */,
+				30FF9F8421C1ACF000B0B3A4 /* FoodCategory.swift in Sources */,
+				30FF9F8621C1AD3400B0B3A4 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
